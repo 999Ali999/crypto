@@ -1,10 +1,10 @@
-import { Button } from "@/components/ui/button";
 import "./App.css";
+import { Header } from "./components/header";
 
 function App() {
   return (
     <>
-      <Button>Click me</Button>
+      <Header />
     </>
   );
 }
